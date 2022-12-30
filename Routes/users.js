@@ -1,9 +1,9 @@
+// Defining Routes using Express
 import express from "express";
 import { createUser, getUsers, getUser, deleteUser, updateUser } from "../controllers/users.js";
 
 const router = express.Router();
 
-// all routes in here start with /users
 router.get('/', getUsers)
 
 // send to database
