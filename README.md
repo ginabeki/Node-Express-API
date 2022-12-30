@@ -1,2 +1,2 @@
 # Node-Express-API
-> creating a simple CRUD API using Node and Express
+> A simple CRUD API using Node and Express
